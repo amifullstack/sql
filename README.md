@@ -76,3 +76,19 @@
 
 ![alt text](https://github.com/amifullstack/sql/blob/master/img/data.png "data")
 ![alt text](https://github.com/amifullstack/sql/blob/master/img/all_join.png)
+
+**Foreign key()**
+
+> The SQL foreign key constraint is used to ensure the  
+  referential integrity of the data in one table to match values to another table.
+
+
+> for making order user must be present in the user table!!
+
+
+  ```sql
+    create table orders(o_id int not null, order_number int not null,
+    u_id int unsigned,
+     primary key(o_id), foreign_key(u_id) references user(u_id));    
+
+    ```
