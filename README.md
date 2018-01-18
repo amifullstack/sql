@@ -58,9 +58,21 @@
       insert into news (title, description)
       values("B", "Know more about B")```
 
-> JOIN      
+> JOIN  
+
+>> Selects the record that have matching values in both sides    
 
 
 
 ![alt text](https://github.com/amifullstack/sql/blob/master/img/select.png "select")
 ![alt text](https://github.com/amifullstack/sql/blob/master/img/join.png "join")
+
+
+> Left Join
+
+>> Returns all the records from the left table and matched records form right table, THE RESULT IS NULL IF THERE'S NO MATCH
+
+> Right Join
+
+![alt text](https://github.com/amifullstack/sql/blob/master/img/data.png "data")
+![alt text](https://github.com/amifullstack/sql/blob/master/img/all_join.png)
